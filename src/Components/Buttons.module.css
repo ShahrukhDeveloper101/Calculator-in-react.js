@@ -1,0 +1,36 @@
+.btn,
+.btn-number,
+.btn-decimal,
+.btn-plus-minus {
+  font-size: 2rem;
+  background-color: #171c17;
+  border-radius: 1.7rem;
+  width: 70%;
+  margin: 1rem 0;
+  border: none;
+  color: white;
+}
+
+.btn:hover,
+.btn-number:hover,
+.btn-plus-minus:hover,
+.btn-decimal:hover {
+  background-color: rgba(23, 28, 23, 0.8);
+  color: white;
+}
+
+.btn-special-charac,
+.btn-special-charac:hover {
+  color: #529975;
+}
+
+.btn-clear,
+.btn-clear:hover {
+  color: #885b3c;
+}
+
+.btn-equal,
+.btn-equal:hover {
+  background-color: #529975;
+  color: white;
+}

@@ -1,0 +1,27 @@
+.inputArea{
+    width: 100%;
+    height: 200px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.inputBox{
+    width: 100%;
+    background-color: transparent;
+    font-size: 2rem;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    text-align: right;
+    padding: 1.5rem .5rem;
+    color: #529975;
+  }
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+  
+  input[type="number"] {
+      -moz-appearance: textfield; /* Firefox */
+  }
